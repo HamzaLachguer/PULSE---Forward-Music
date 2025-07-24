@@ -39,7 +39,57 @@
 	-->
 	<header>
 
-		
+		<nav class="nav-menu">
+			<a href="" class="logo">
+				<img src="/ASSETS/logo.svg" alt="go back to home page">
+			</a>
+
+			<!-- display only on large screens -->
+			<div class="display-style">
+				<button class="display style-display-active" data-display="list">list</button>
+				<button class="display" data-display="grid">grid</button>
+			</div>
+
+			<form action="" class="search-music search-music-large">
+				<label for="search">search</label>
+				<input type="search" name="search" id="search">
+				<input type="button" value="GO">
+			</form>
+
+			<button class="add-movie-btn">add movie</button>
+
+			<button class="menu-display-btn" aria-controls="nav-list-container" aria-label="open & close nav menu">
+				<div class="line one"></div>
+				<div class="line two"></div>
+				<div class="line three"></div>
+			</button>
+
+			<div class="nav-list-container" id="nav-list-container"
+					aria-hidden="true" aria-expanded="false">
+
+				<!-- display this form only on mobile -->
+				<form action="" class="search-music search-music-mobile">
+					<label for="search">search</label>
+					<input type="search" name="search" id="search">
+					<input type="button" value="GO">
+				</form>
+
+				<ul class="nav-list">
+					<li><a href="">home</a></li>
+					<li><a href="">license</a></li>
+					<li><a href="">about</a></li>
+					<li><a href="">contact</a></li>
+				</ul>
+
+				<div class="polycies">
+					<img src="/ASSETS/logo.svg" alt="pulse logo" class="logo">
+					<div>
+						<span>copyright 2025</span>
+						<span>privacy policy</span>
+					</div>
+				</div>
+			</div>
+		</nav>
 	</header>
     
 
@@ -49,8 +99,14 @@
 		** MAIN **
 	**
 	-->
-	<main></main>
+	<main>
 
+		
+	</main>
+
+
+
+	<script src="/JS/script.js"></script>
 
 </body>
 </html>
