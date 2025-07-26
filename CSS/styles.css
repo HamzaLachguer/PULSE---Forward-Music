@@ -67,7 +67,6 @@ body {
   font-size: 1.4rem;
   color: var(--white);
   background-color: var(--black);
-  height: 1000px;
 }
 
 
@@ -84,6 +83,7 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 99999999;
 }
 
 
@@ -183,6 +183,7 @@ a.logo {
   opacity: 0;
   overflow: hidden;
   transition: .25s ease;
+  background-color: var(--black);
 }
 
 /* show menu */
